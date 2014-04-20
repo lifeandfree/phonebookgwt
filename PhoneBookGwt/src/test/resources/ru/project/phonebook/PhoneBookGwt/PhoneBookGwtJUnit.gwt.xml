@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ru.project.phonebook.PhoneBookGwt.PhoneBookGwt' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/PhoneBookGwt/greet" class="ru.project.phonebook.PhoneBookGwt.server.GreetingServiceImpl" />
+
+</module>
