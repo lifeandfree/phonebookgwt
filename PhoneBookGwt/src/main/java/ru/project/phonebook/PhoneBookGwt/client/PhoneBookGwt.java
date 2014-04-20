@@ -239,7 +239,7 @@ public class PhoneBookGwt implements EntryPoint {
 					
 					public void onClick(ClickEvent event) {
 						// TODO Auto-generated method stub
-						//stocksFlexTable.
+						stocksFlexTable.getElement();
 						int removedIndex = phoneBookSets.indexOf(set.getName());
 						phoneBookSets.remove(removedIndex);
 				        stocksFlexTable.removeRow(removedIndex + 1);
